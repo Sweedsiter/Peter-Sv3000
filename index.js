@@ -12,13 +12,13 @@ app.use(core());
 
 // Sever All
 app.get("/", async function (req, res) {
-  const ad = [{ name: "PeterA" }];
-  const bd = [{ name: "PeterB" }];
+  const bd = { name: "Peter01" };
+  const ad = [{ name: "Peter00" }, bd, { head: "Peter02" }];
   //   res.json(Product.data);
   res.json(ad);
 });
 app.get("/product", async function (req, res) {
-  res.send(Product.data);
+  res.json(Product.data);
 });
 
 app.listen(port, "localhost", () => {

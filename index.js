@@ -4,6 +4,7 @@ const bodyParse = require("body-parser");
 const core = require("cors"); //อันนี้เป็นตัวส่งข้อลูลจากหน้าเว็บไปเป็น Json/ข้อมูล ให้ front end
 const port = 3000;
 const Product = require("./Config/Product");
+const PageDatail = require("./Config/PageDatail"); //เกี่ยวกับข้อมูลหน้าเว็บ
 const app = express();
 
 app.use(morgen("div")); //middleware ไว้เช็ค reqส่งมา
@@ -12,10 +13,8 @@ app.use(core());
 
 // Sever All
 app.get("/", async function (req, res) {
-  const bd = { name: "Peter01" };
-  const ad = [{ name: "Peter00" }, bd, { head: "Peter02" }];
   //   res.json(Product.data);
-  res.json(ad);
+  res.json(PageDatail);
 });
 app.get("/product", async function (req, res) {
   res.json(Product.data);

@@ -1,6 +1,9 @@
 exports.Header = [
   { MainName: "Dx-emb Web For u!!" },
-  { CompanyName: "Logo" },
+  {
+    CompanyName:
+      "https://img.lovepik.com/free-png/20210928/lovepik-agricultural-logo-png-image_401740052_wh1200.png",
+  },
   { Home: "Home" },
   { Product: "Product" },
   { About: "About" },

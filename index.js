@@ -19,6 +19,9 @@ app.get("/", async function (req, res) {
 app.get("/product", async function (req, res) {
   res.json(Product.data);
 });
+app.post("/uploadFile", async function (req, res) {
+  // console.log(req.body.imgUrl);
+});
 
 app.listen(port, "localhost", () => {
   console.log("Peter-Sv3000 Started");

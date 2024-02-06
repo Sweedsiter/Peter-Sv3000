@@ -1,5 +1,5 @@
 exports.Header = [
-  { MainName: "Dx-emb Web For u!!" },
+  { MainName: "Dx-emb Web For u" },
   {
     CompanyName:
       "https://e7.pngegg.com/pngimages/361/627/png-clipart-leaf-logo-green-leaves-green-and-teal-leaf-logo-text-maple-leaf-thumbnail.png",
@@ -8,6 +8,7 @@ exports.Header = [
   { Product: "Product" },
   { About: "About" },
   { Contact: "Contact" },
+  { Addmin: "Addmin" },
 ];
 exports.Footer = [
   { Box1_1: "Company" },

@@ -19,7 +19,7 @@ app.get("/", async function (req, res) {
 app.get("/product", async function (req, res) {
   //  res.send(Product.data);
   const Data = [
-    {
+    {     
       Group: "Phone",
       Price: "2555",
       Image:
@@ -30,7 +30,7 @@ app.get("/product", async function (req, res) {
       Assumenda numquam molestias a voluptate. Voluptas, possimus
       temporibus! Amet adipisci odit nihil quod voluptate?`,
     },
-    {
+    { 
       Group: "Phone",
       Price: "3500",
       Image:
@@ -42,6 +42,7 @@ app.get("/product", async function (req, res) {
       temporibus! Amet adipisci odit nihil quod voluptate?`,
     },
     {
+     
       Group: "Phone",
       Price: "4000",
       Image:
